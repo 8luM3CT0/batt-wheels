@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .headerLinks{
+        @apply
+        cursor-pointer
+        flex
+        space-x-5
+        text-gray-500
+        hover:text-gray-400
+        items-center
+        hover:underline
+    }
+
+    .headerLinkIcon{
+        @apply
+        h-8
+        lg:h-10
+    }
+
+    .basketCount{
+        @apply
+        absolute
+        top-0
+        right-0
+        md:right-10
+        h-4
+        w-4
+        mr-2
+        bg-yellow-400
+        text-center
+        rounded-full
+        text-black
+        font-bold
+    }
+
+    .lowerHeaderLinks{
+        @apply
+        cursor-pointer
+        flex
+        items-center
+        space-x-5
+        text-gray-700
+        hover:text-gray-600
+        hover:underline
+    }
+
+    .lowerHeaderIcons{
+        @apply
+        h-8
+        lg:h-10
+    }
+
+    .lowerHeaderTitle{
+        @apply
+        font-semibold
+        text-base
+        lg:text-lg
+    }
+
+}
