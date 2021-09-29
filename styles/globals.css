@@ -15,6 +15,12 @@
         hover:underline
     }
 
+    .link {
+        @apply 
+        cursor-pointer 
+        hover:underline;
+      }
+
     .headerLinkIcon{
         @apply
         h-8
@@ -61,4 +67,20 @@
         lg:text-lg
     }
 
+    .productFeed{
+        @apply 
+        grid 
+        grid-flow-row-dense 
+        md:grid-cols-2 
+        lg:grid-cols-3 
+        xl:grid-cols-4 
+        md:mt-[50px] 
+        mx-auto;
+      }
+
+      .productImg{
+        @apply
+        h-96
+        lg:h-[720px]
+      }
 }
