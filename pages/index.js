@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Banner from '../components/banner/Banner'
 import DraftBanner from '../components/banner/DraftBanner'
 import Header from '../components/header/Header'
-import ProductFeed from '../components/products/ProductFeed'
+import FeaturedProduct from '../components/products/FeaturedProduct'
+import featured from '../public/json-files/featured.json'
 
 export default function Home ({ products }) {
   return (
@@ -29,7 +28,52 @@ export default function Home ({ products }) {
       scrollbar-hide'
       >
         <DraftBanner />
-        <ProductFeed products={products} />
+        <div className='productFeed'>
+          {/**featured */}
+          {featured
+            .slice(0, 4)
+            .map(({ title, description, category, img, price }) => (
+              <FeaturedProduct
+                key={img}
+                title={title}
+                description={description}
+                category={category}
+                img={img}
+                price={price}
+              />
+            ))}
+          <img
+            src='https://links.papareact.com/dyz'
+            alt=''
+            className='md:col-span-full'
+          />
+          <div className='md:col-span-2'>
+            {featured
+              .slice(4, 5)
+              .map(({ title, description, category, img, price }) => (
+                <FeaturedProduct
+                  key={img}
+                  title={title}
+                  description={description}
+                  category={category}
+                  img={img}
+                  price={price}
+                />
+              ))}
+          </div>
+          {featured
+            .slice(5, featured.length)
+            .map(({ title, description, category, img, price }) => (
+              <FeaturedProduct
+                key={img}
+                title={title}
+                description={description}
+                category={category}
+                img={img}
+                price={price}
+              />
+            ))}
+        </div>
       </main>
     </div>
   )

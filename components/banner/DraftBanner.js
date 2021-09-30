@@ -6,7 +6,8 @@ function DraftBanner () {
     <div className='relative '>
       <div
         className='
-      absolute 
+      opacity-80
+        absolute 
       w-full 
       h-32 
       bg-gradient-to-t 
