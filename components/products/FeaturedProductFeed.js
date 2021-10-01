@@ -8,14 +8,13 @@ function ProductFeed ({ featured }) {
       {/**featured */}
       {featured
         .slice(0, 4)
-        .map(({ id, title, description, category, image, price }) => (
+        .map(({ title, description, category, img, price }) => (
           <FeaturedProduct
-            key={id}
-            id={id}
+            key={img}
             title={title}
             description={description}
             category={category}
-            image={image}
+            img={img}
             price={price}
           />
         ))}
@@ -27,28 +26,26 @@ function ProductFeed ({ featured }) {
       <div className='md:col-span-2'>
         {featured
           .slice(4, 5)
-          .map(({ id, title, description, category, image, price }) => (
+          .map(({ title, description, category, img, price }) => (
             <FeaturedProduct
-              key={id}
-              id={id}
+              key={img}
               title={title}
               description={description}
               category={category}
-              image={image}
+              img={img}
               price={price}
             />
           ))}
       </div>
       {featured
         .slice(5, featured.length)
-        .map(({ id, title, description, category, image, price }) => (
+        .map(({ title, description, category, img, price }) => (
           <FeaturedProduct
-            key={id}
-            id={id}
+            key={img}
             title={title}
             description={description}
             category={category}
-            image={image}
+            img={img}
             price={price}
           />
         ))}
