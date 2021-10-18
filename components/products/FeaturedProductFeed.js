@@ -19,9 +19,9 @@ function ProductFeed ({ featured }) {
           />
         ))}
       <img
-        src='https://links.papareact.com/dyz'
+        src='https://equilast.net/wp-content/uploads/2020/09/17-768x432.jpeg'
         alt=''
-        className='md:col-span-full'
+        className='md:col-span-full h-[600px] w-[1590px]'
       />
       <div className='md:col-span-2'>
         {featured

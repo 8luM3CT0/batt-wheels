@@ -3,111 +3,111 @@
         "title": "OUTDO OT7-12 (12V-7AH)",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "39.99"
+        "price": 39.99
     },
     {
         "img": "https://equilast.net/wp-content/uploads/2021/08/OT85-12.png",
         "title": "OUTDO OT80-12 (12V-80AH)",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "49.99"
+        "price": 49.99
     },
     {
         "img": "https://equilast.net/wp-content/uploads/2021/08/OT200-12.png",
         "title": "OUTDO OT200-12 (12V-200AH)",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "79.99"
+        "price": 79.99
     },
     {
         "img": "https://equilast.net/wp-content/uploads/2021/08/OT200-12.png",
         "title": "OUTDO OT200-12 (12V-200AH)",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "79.99"
+        "price": 79.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/71yT30JgBiL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "RBP Repulsor M/T All-Terrain Radial Tire - LT315/75R16 127Q",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "264.99"
+        "price": 264.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/71hYi5HKrbS._AC_UY327_FMwebp_QL65_.jpg",
         "title": "Mastercraft Avenger G/T Performance Radial Tire - 295/50R15 105S",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "136.00"
+        "price": 136.00
     },
     {
         "img": "https://m.media-amazon.com/images/I/71nq-yyA+uL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "Lexani LXUHP-207 235/45R19XL 99W BSW",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "113.28"
+        "price": 113.28
     },
     {
         "img": "https://m.media-amazon.com/images/I/81qRd54FiWL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "Amazon Basics Standby UPS 600VA 360W Surge Protector Battery Power Backup, 8 Outlets - Black",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "UPS",
-        "price": "55.99"
+        "price": 55.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/817Z5KQfqXL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "APC UPS, 600VA UPS Battery Backup & Surge Protector, BE600M1 Backup Battery Power Supply, USB Charger",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "UPS",
-        "price": "64.99"
+        "price": 64.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/81qRd54FiWL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "CyberPower PR1500LCD Smart App Sinewave UPS System, 1500VA/1500W, 8 Outlets, AVR, Mini-Tower",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "UPS",
-        "price": "514.95"
+        "price": 514.95
     },
     {
         "img": "https://m.media-amazon.com/images/I/81lgJ++wufL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "APC UPS, 1500VA UPS Battery Backup & Surge Protector, BX1500M Backup Battery, AVR, Dataline Protection and",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "UPS",
-        "price": "164.99"
+        "price": 164.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/51A1Mhirp5L._AC_UL480_FMwebp_QL65_.jpg",
         "title": "UB1270 Replacement for Panasonic LC-R127R2P1 - 12V 7.2Ah VRLA Battery",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "20.99"
+        "price": 20.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/51o4iHKDBJL._AC_UL480_FMwebp_QL65_.jpg",
         "title": "Zeus PC5-12F1 12V 5Ah Sealed Lead Acid - AGM - VRLA Replacement Battery",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Battery",
-        "price": "30.99"
+        "price": 30.99
     },
     {
         "img": "https://m.media-amazon.com/images/I/71ZTtCVaiUS._AC_UY327_FMwebp_QL65_.jpg",
         "title": "Michelin CrossClimate2 All-Season Radial Car Tire for Grand Touring, 235/55R17 99H",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "189.00"
+        "price": 189.00
     },
     {
         "img": "https://m.media-amazon.com/images/I/41oMOrxebiL._AC_UY327_FMwebp_QL65_.jpg",
         "title": "Federal 595RS-RR Performance Radial Tire-225/45R17 94W",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "159.95"
+        "price": 159.95
     },
     {
         "img": "https://m.media-amazon.com/images/I/611Nz--Sp9L._AC_UY327_FMwebp_QL65_.jpg",
         "title": "General GRABBER A/TX All-Terrain Radial Tire - LT265/60R20 121S",
         "description": "Lorem ipsum blah blah blah placeholder value",
         "category": "Tires",
-        "price": "277.99"
+        "price": 277.99
     }
 ]

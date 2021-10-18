@@ -2,53 +2,47 @@
 import Image from 'next/image'
 import Currency from 'react-currency-formatter'
 //back-end
-import { auth, store } from '../../firebase'
-import { useAuthState } from 'react-firebase-hooks/auth'
 import { useState } from 'react'
 import { useDispatch } from 'react-redux'
-import { addToBasket } from '../../slices/basketSlice'
-import firebase from 'firebase'
+import { addToBasket } from '../../../slices/basketSlice'
 
-function FeaturedProduct ({ img, title, description, category, price }) {
-  const [user] = useAuthState(auth)
+function BatteryProduct ({ img, title, description, category, price }) {
   const dispatch = useDispatch()
 
   const addToCart = () => {
-    const featuredProduct = {
+    const batteryProd = {
       img,
       title,
       description,
       category,
       price
     }
-    dispatch(addToBasket(featuredProduct))
-
-    store
-      .collection('userOrders')
-      .doc(user.email)
-      .collection('orders')
-      .add(featuredProduct, {
-        timestamp: firebase.firestore.FieldValue.serverTimestamp()
-      })
-      .then(() => {
-        console.log(`SUCCESS: Order ${auth.id} has been added to the database`)
-      })
+    dispatch(addToBasket(batteryProd))
   }
 
   return (
-    <div className='relative  flex flex-col m-5 bg-gray-100 z-30 p-10 rounded-md'>
+    <div
+      className='
+        relative
+        flex
+        flex-col
+        m-5
+        bg-gray-100
+        z-30
+        p-10
+        rounded-md
+        '
+    >
       <p className='category'>{category}</p>
 
       <Image src={img} height={200} width={200} objectFit='contain' />
 
-      <h4 className='my-3 '>{title}</h4>
+      <h4 className='my-3'>{title}</h4>
       <p className='text-xs my-2 line-clamp-2'>{description}</p>
       <div className='mb-5'>
-        {/**money */}
         <Currency quantity={price} currency='USD' />
       </div>
       <button
-        disabled={!user}
         onClick={addToCart}
         className='
       mt-auto           
@@ -76,4 +70,4 @@ function FeaturedProduct ({ img, title, description, category, price }) {
   )
 }
 
-export default FeaturedProduct
+export default BatteryProduct
